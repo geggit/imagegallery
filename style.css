@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  max-width: 1200;
+}
+
+/* End Common Section */
+
+header {
+  overflow: hidden;
+}
+
+header h1 {
+  float: left;
+  color: #555;
+  font-size: 160%;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 130%;
+  font-weight: 600;
+  color: #555;
+}
+
+nav ul li a:hover {
+  color: #aaa;
+}
+
+/* End Navigation */
+
+section:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+section div.container img {
+  width: 33.33333%;
+  float: left;
+  opacity: 1;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  transition: opacity .5s;
+}
+
+section div.container img:hover {
+  opacity: .7;
+}
+
+section {
+  margin-bottom: 3%;
+}
+
+section h2 {
+  text-align: center;
+}
+
+footer {
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+footer p {
+  font-weight: bold;
+}
