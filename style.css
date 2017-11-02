@@ -83,3 +83,234 @@ footer {
 footer p {
   font-weight: bold;
 }
+
+/* End Footer */
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) and
+(min-width: 480px ) {
+  .wrapper {
+    width: red;
+  }
+
+  header h1 {
+    margin-left: 3%
+  }
+  menu-icon {
+    width: 30px;
+    height: 26px;
+    background: url(images/menu.png) no-
+    repeat center;
+    position: absolute;
+    top: 2%;
+    right: 55%%;
+    z-index: 100;
+  }
+
+  nav ul {
+    position: absolute;
+    right: 5%;
+    top: 0%%;
+    padding: 3% 7%;
+    background: #eee;
+    width: 200px;
+    text-align: center;
+    z-index: 10;
+  }
+  nav ul li {
+    width: 905%;
+    padding:
+  }
+  nav ul li a {
+    padding: 5% 205%%;
+  }
+  nav:hover ul {
+    display: block;
+  }
+  section div.container img {
+    display: block;
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and
+(max-width: 1024px) {
+  .wrapper {
+    width: 100%;
+  }
+  header h1 {
+    margin-left: 3%;
+  }
+  nav {
+    margin-right: 3%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+}
